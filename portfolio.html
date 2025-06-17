@@ -1,126 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Benique</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Logo & Brand Design</title>
+  <link rel="stylesheet" href="css/portfolio-theme.css">
+  <link rel="stylesheet" href="css/portfolio-layout.css">
+  <script src="js/portfolio.js" defer></script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <h1>Benique</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <header class="portfolio-header">
+    <h1>Logo & Brand Design</h1>
+    <p>Crafting Visual Identities That Speak for You</p>
+  </header>
 
-    <section class="portfolio-header">
-        <div class="container">
-            <h1>My Portfolio</h1>
-            <p>Showcasing my best work and creative projects</p>
-        </div>
-    </section>
+  <section class="portfolio-hero">
+    <video autoplay muted loop>
+      <source src="assets/logo-hero.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
 
-    <section class="portfolio-items">
-        <div class="container">
-            <div class="portfolio-filter">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="web">Web Design</button>
-                <button class="filter-btn" data-filter="app">App Development</button>
-                <button class="filter-btn" data-filter="ui">UI/UX</button>
-            </div>
-            
-            <div class="portfolio-grid">
-                <div class="portfolio-item" data-category="web">
-                    <div class="portfolio-image">
-                        <img src="https://picsum.photos/seed/project1/600/400.jpg" alt="Project 1">
-                        <div class="portfolio-overlay">
-                            <h3>E-commerce Website</h3>
-                            <p>Web Design</p>
-                            <a href="#" class="view-project">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item" data-category="app">
-                    <div class="portfolio-image">
-                        <img src="https://picsum.photos/seed/project2/600/400.jpg" alt="Project 2">
-                        <div class="portfolio-overlay">
-                            <h3>Fitness App</h3>
-                            <p>App Development</p>
-                            <a href="#" class="view-project">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item" data-category="ui">
-                    <div class="portfolio-image">
-                        <img src="https://picsum.photos/seed/project3/600/400.jpg" alt="Project 3">
-                        <div class="portfolio-overlay">
-                            <h3>Banking Dashboard</h3>
-                            <p>UI/UX Design</p>
-                            <a href="#" class="view-project">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item" data-category="web">
-                    <div class="portfolio-image">
-                        <img src="https://picsum.photos/seed/project4/600/400.jpg" alt="Project 4">
-                        <div class="portfolio-overlay">
-                            <h3>Restaurant Website</h3>
-                            <p>Web Design</p>
-                            <a href="#" class="view-project">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item" data-category="app">
-                    <div class="portfolio-image">
-                        <img src="https://picsum.photos/seed/project5/600/400.jpg" alt="Project 5">
-                        <div class="portfolio-overlay">
-                            <h3>Travel App</h3>
-                            <p>App Development</p>
-                            <a href="#" class="view-project">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item" data-category="ui">
-                    <div class="portfolio-image">
-                        <img src="https://picsum.photos/seed/project6/600/400.jpg" alt="Project 6">
-                        <div class="portfolio-overlay">
-                            <h3>Music Player UI</h3>
-                            <p>UI/UX Design</p>
-                            <a href="#" class="view-project">View Project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <section class="portfolio-body">
+    <div class="subsection-menu">
+      <button onclick="showSlideshow('logo')">Logo Design</button>
+      <button onclick="showSlideshow('brand-kits')">Brand Kits</button>
+      <button onclick="showSlideshow('business-cards')">Business Cards</button>
+      <button onclick="showSlideshow('packaging')">Packaging Design</button>
+      <button onclick="showSlideshow('social-media')">Social Media Branding</button>
+    </div>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Benique. All rights reserved.</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-            </div>
-        </div>
-    </footer>
+    <div class="slideshow-container">
+      <div id="logo" class="slideshow active">
+        <img src="images/logo1.jpg" alt="Logo 1">
+        <img src="images/logo2.jpg" alt="Logo 2">
+      </div>
+      <div id="brand-kits" class="slideshow">
+        <img src="images/brand1.jpg" alt="Brand Kit 1">
+        <img src="images/brand2.jpg" alt="Brand Kit 2">
+      </div>
+      <div id="business-cards" class="slideshow">
+        <img src="images/card1.jpg" alt="Card 1">
+        <img src="images/card2.jpg" alt="Card 2">
+      </div>
+      <div id="packaging" class="slideshow">
+        <img src="images/package1.jpg" alt="Package 1">
+        <img src="images/package2.jpg" alt="Package 2">
+      </div>
+      <div id="social-media" class="slideshow">
+        <img src="images/social1.jpg" alt="Social Branding 1">
+        <img src="images/social2.jpg" alt="Social Branding 2">
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <footer class="portfolio-footer">
+    <p>&copy; 2025 Benique Creations | All rights reserved.</p>
+  </footer>
 </body>
 </html>

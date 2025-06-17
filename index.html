@@ -3,86 +3,393 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benique Portfolio</title>
+    <title>Benique Creations - Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="container">
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
             <div class="logo">
-                <h1>Benique</h1>
+                <h1>Benique Creations</h1>
             </div>
-            <nav>
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
                 <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
+    <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Welcome to My World</h1>
-                <p>Where creativity meets technology</p>
-                <a href="portfolio.html" class="btn">View My Work</a>
-            </div>
+        <div class="hero-content">
+            <h1>Benique Creations Portfolio</h1>
+            <p>Where creativity meets precision</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
         </div>
     </section>
-
-    <section class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>I am a passionate developer with expertise in creating elegant and functional web solutions. With years of experience in the industry, I bring a unique blend of creativity and technical skills to every project.</p>
-                    <p>My approach focuses on user experience, clean code, and visually appealing designs that stand out in today's digital landscape.</p>
+   <section class="profile-container">
+    <img src="images/profile.jpg" alt="Profile Photo" class="profile-photo">
+    <div class="purple-gold-gradient-section">
+        <h2>&nbsp;About Me</h2>
+        <p>Welcome to Benique Creations — where imagination meets execution. I'm a creative professional specializing in graphic design, video editing, and live streaming solutions that captivate, connect, and communicate. From brand identity to cinematic edits and flawless live broadcasts, every project I take on is crafted with precision and purpose.</p>
+        <p>Whether you're a business seeking a standout visual identity, a church in need of reliable streaming, or a content creator aiming for polished, professional output — you'll find tailored visual solutions right here. Explore my work. Let's turn your vision into something unforgettable.</p>
+    </div>
+</section>
+    <!-- Services Section -->
+<section class="services-section">
+      <h2 class="section-title">Services I Offer</h2>
+        <div class="services-showcase">
+            <div class="services-slider-container">
+                <div class="services-slider">
+                    <!-- Service 1: Logo & Brand Design -->
+                    <div class="services-slide active" data-index="0">
+                        <div class="services-slide-image">
+                        <a href="images/poster_design.jpeg"><img src="images/logobrand.jpeg" alt="Logo Design" width="1280" height="720"></a> </div>
+                        <div class="services-slide-content">
+                            <h3>Logo & Brand Design</h3>
+                            <p>Creating unique and memorable brand identities that resonate with your audience and stand out in the marketplace.</p>
+                            <p>Our logo design services include comprehensive brand identity packages, logo redesigns, and brand guidelines to ensure your visual identity is consistent across all platforms.</p>
+                        </div>
+                  </div>
+                    <!-- Service 2: Motion Graphics & Animations -->
+                    <div class="services-slide" data-index="1">
+                        <div class="services-slide-image">
+                            <img src="images/motion.jpeg" alt="Motion Graphics">
+                        </div>
+                        <div class="services-slide-content">
+                            <h3>Motion Graphics & Animations</h3>
+                            <p>Breathe life into your ideas with captivating motion graphics and animations that tell your story effectively.</p>
+                            <p>From explainer videos to animated social media content, our motion graphics services help you communicate complex ideas in an engaging and memorable way.</p>
+                        </div>
+                    </div>
+                    <!-- Service 3: Event Video Editing -->
+                    <div class="services-slide" data-index="2">
+                        <div class="services-slide-image">
+                            <img src="images/event_edit.jpeg" alt="Event Video">
+                        </div>
+                        <div class="services-slide-content">
+                            <h3>Event Video Editing</h3>
+                            <p>Capturing and editing the essence of your events, preserving memories and creating impactful content.</p>
+                            <p>Our event video services include full event coverage, highlight reels, and custom montages to showcase the best moments of your special occasions.</p>
+                        </div>
+                    </div>
+                    <!-- Service 4: Live Streaming for Churches & Conferences -->
+                    <div class="services-slide" data-index="3">
+                        <div class="services-slide-image">
+                            <img src="images/streaming.jpeg" alt="Live Streaming">
+                        </div>
+                        <div class="services-slide-content">
+                            <h3>Live Streaming for Churches & Conferences</h3>
+                            <p>Seamless live streaming solutions that connect your message with audiences anywhere in the world.</p>
+                            <p>Our live streaming services include professional setup, technical support, and post-event content creation to ensure your message reaches everyone.</p>
+                        </div>
+                    </div>
+                    <!-- Service 5: Social Media Video Creation -->
+                    <div class="services-slide" data-index="4">
+                        <div class="services-slide-image">
+                            <img src="images/social_media.jpeg" alt="Social Media Video">
+                        </div>
+                        <div class="services-slide-content">
+                            <h3>Social Media Video Creation</h3>
+                            <p>Create engaging video content that stops scrolling and starts conversations on all your social platforms.</p>
+                            <p>From Instagram Reels to TikTok videos, our social media content is designed to boost engagement and grow your online presence.</p>
+                        </div>
+                    </div>
+                    <!-- Service 6: Poster & Banner Design -->
+                    <div class="services-slide" data-index="5">
+                        <div class="services-slide-image">
+                            <img src="images/poster_design.jpeg" alt="Poster Design">
+                        </div>
+                        <div class="services-slide-content">
+                            <h3>Poster & Banner Design</h3>
+                            <p>Design eye-catching posters, banners, and print materials that grab attention and convey your message effectively.</p>
+                            <p>Our print design services include everything from event posters to marketing materials that make your brand stand out.</p>
+                        </div>
+                    </div>
+                    <!-- Service 7: YouTube Channel Editing -->
+                    <div class="services-slide" data-index="6">
+                        <div class="services-slide-image">
+                            <img src="images/youtube_edit.jpeg" alt="YouTube Editing">
+                        </div>
+                        <div class="services-slide-content">
+                            <h3>YouTube Channel Editing</h3>
+                            <p>Professional video editing that transforms your raw footage into polished content that keeps viewers engaged.</p>
+                            <p>From editing to thumbnails and channel branding, we help you create YouTube content that grows your audience and increases your reach.</p>
+                        </div>
+                    </div>
+                    <!-- Service 8: Photo Editing & Enhancement -->
+                    <div class="services-slide" data-index="7">
+                        <div class="services-slide-image">
+                          <img src="images/imageenhance.jpeg" alt="Photo Editing">
+                        </div>
+                        <div class="services-slide-content">
+                            <h3>Photo Editing & Enhancement</h3>
+                            <p>Transform your photos with professional editing and enhancement to make them truly stand out.</p>
+                            <p>Our photo services include retouching, color correction, and creative editing to bring out the best in your images.</p>
+                        </div>
+                    </div>
+              </div>
+                <div class="services-slide-nav">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slide-indicators">
+                        <span class="slide-indicator active" data-index="0">1</span>
+                        <span class="slide-indicator" data-index="1">2</span>
+                        <span class="slide-indicator" data-index="2">3</span>
+                        <span class="slide-indicator" data-index="3">4</span>
+                        <span class="slide-indicator" data-index="4">5</span>
+                        <span class="slide-indicator" data-index="5">6</span>
+                        <span class="slide-indicator" data-index="6">7</span>
+                        <span class="slide-indicator" data-index="7">8</span>
+                    </div>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
                 </div>
-                <div class="about-image">
-                    <img src="https://picsum.photos/seed/benique/300/300.jpg" alt="Benique">
+          </div>
+      </div>
+
+
+  <!-- porfolio section -->
+  <section class="dialogue-box">
+    <h2>Explore My Work</h2>
+    <p>Take a look at some of my recent projects and see how I can bring your vision to life.</p>
+    <div class="portfolio-grid">
+        <div class="portfolio-item">
+            <img src="images/logobrand.jpeg" alt="Logo & Brand Design">
+            <div class="portfolio-overlay">
+                <h3>Logo & Brand Design</h3>
+                <p>View Portfolio</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="images/motion.jpeg" alt="Motion Graphics">
+            <div class="portfolio-overlay">
+                <h3>Motion Graphics</h3>
+                <p>View Portfolio</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="images/event_edit.jpeg" alt="Event Video Editing">
+            <div class="portfolio-overlay">
+                <h3>Event Video Editing</h3>
+                <p>View Portfolio</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="images/streaming.jpeg" alt="Live Streaming">
+            <div class="portfolio-overlay">
+                <h3>Live Streaming</h3>
+                <p>View Portfolio</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="images/social_media.jpeg" alt="Social Media Videos">
+            <div class="portfolio-overlay">
+                <h3>Social Media Videos</h3>
+                <p>View Portfolio</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="images/poster_design.jpeg" alt="Poster Design">
+            <div class="portfolio-overlay">
+                <h3>Poster Design</h3>
+                <p>View Portfolio</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="images/youtube_edit.jpeg" alt="YouTube Editing">
+            <div class="portfolio-overlay">
+                <h3>YouTube Editing</h3>
+                <p>View Portfolio</p>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <img src="images/imageenhance.jpeg" alt="Photo Enhancement">
+            <div class="portfolio-overlay">
+                <h3>Photo Enhancement</h3>
+                <p>View Portfolio</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+    <div class="testimonial-header">
+        <h2>What People Say</h2>
+        <p>Don't just take our word for it - hear from our satisfied clients</p>
+    </div>
+    
+    <div class="testimonial-container">
+        <div class="testimonial-card">
+            <div class="quote-icon">
+                <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="testimonial-content">
+                <p>"Benique's work transformed our church's online presence. The live streaming quality was exceptional and the graphic design captured our message perfectly."</p>
+            </div>
+            <div class="testimonial-author">
+                <img src="https://picsum.photos/seed/testimonial1/60/60.jpg" alt="Client">
+                <div class="author-info">
+                    <h4>Rev. Michael Johnson</h4>
+                    <p>First Assembly Church</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="skills">
-        <div class="container">
-            <h2>My Skills</h2>
-            <div class="skills-container">
-                <div class="skill-item">
-                    <i class="fas fa-code"></i>
-                    <h3>Web Development</h3>
-                    <p>Creating responsive and dynamic websites using modern technologies.</p>
-                </div>
-                <div class="skill-item">
-                    <i class="fas fa-paint-brush"></i>
-                    <h3>UI/UX Design</h3>
-                    <p>Designing intuitive and engaging user interfaces.</p>
-                </div>
-                <div class="skill-item">
-                    <i class="fas fa-mobile-alt"></i>
-                    <h3>Mobile Development</h3>
-                    <p>Building applications for iOS and Android platforms.</p>
+        
+        <div class="testimonial-card">
+            <div class="quote-icon">
+                <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="testimonial-content">
+                <p>"As a content creator, Benique's YouTube editing services have significantly improved my channel's quality. The attention to detail is remarkable!"</p>
+            </div>
+            <div class="testimonial-author">
+                <img src="https://picsum.photos/seed/testimonial2/60/60.jpg" alt="Client">
+                <div class="author-info">
+                    <h4>Sarah Williams</h4>
+                    <p>YouTube Content Creator</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Benique. All rights reserved.</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
+        
+        <div class="testimonial-card">
+            <div class="quote-icon">
+                <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="testimonial-content">
+                <p>"Professional, creative, and always delivers on time. Benique's motion graphics brought our brand story to life in ways we never imagined."</p>
+            </div>
+            <div class="testimonial-author">
+                <img src="https://picsum.photos/seed/testimonial3/60/60.jpg" alt="Client">
+                <div class="author-info">
+                    <h4>David Chen</h4>
+                    <p>Tech Startup CEO</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
             </div>
         </div>
-    </footer>
-
+    </div>
+    
+    <div class="testimonial-cta">
+        <a href="testimonials.html" class="testimonial-link">
+            <span>Read More Testimonials</span>
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+</section>
+    <!-- Footer -->
+   <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <h2>Benique Creations</h2>
+                <p>Where creativity meets precision. Transform your vision into stunning reality with our professional design and video services.</p>
+            </div>
+            
+            <div class="footer-cta">
+                <h3>Ready to Start Your Project?</h3>
+                <div class="footer-buttons">
+                    <a href="request-quote.html" class="footer-btn quote-btn">
+                        <i class="fas fa-calculator"></i>
+                        <span>Request Quote</span>
+                    </a>
+                    <a href="#contact" class="footer-btn contact-btn">
+                        <i class="fas fa-envelope"></i>
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-links">
+            <div class="footer-column">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Logo & Brand Design</a></li>
+                    <li><a href="#">Motion Graphics</a></li>
+                    <li><a href="#">Video Editing</a></li>
+                    <li><a href="#">Live Streaming</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-youtube"></i>
+                        <span>YouTube</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-divider"></div>
+            <div class="footer-bottom-content">
+                <p>&copy; 2023 Benique Creations. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
     <script src="script.js"></script>
 </body>
 </html>
