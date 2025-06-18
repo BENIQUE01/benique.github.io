@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Quote - Benique Creations</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/quote.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Benique Creations</h1>
+            </div>
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="quote.html">REQUEST QUOTE</a></li>
+                   <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="testimonial.html">Testimonials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="quote-hero">
+        <div class="hero-content">
+            <h1>Request a Quote</h1>
+            <p>Let's bring your creative vision to life. Get a personalized quote for your project.</p>
+        </div>
+    </section>
+
+    <!-- Quote Form Section -->
+    <section class="quote-form-section">
+        <div class="container">
+            <div class="quote-intro">
+                <h2>Tell Us About Your Project</h2>
+                <p>Fill out the form below with your project details and we'll get back to you within 24 hours with a detailed quote.</p>
+            </div>
+
+            <div class="quote-form-container">
+                <form class="quote-form" id="quoteForm">
+                    <!-- Personal Information -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-user"></i> Contact Information</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company/Organization</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                    </div>
+
+                    <!-- Service Selection -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-tasks"></i> Service Selection</h3>
+                        <div class="form-group">
+                            <label>Which services are you interested in? *</label>
+                            <div class="service-checkboxes">
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="logo-brand" name="services" value="Logo & Brand Design">
+                                    <label for="logo-brand">Logo & Brand Design</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="motion-graphics" name="services" value="Motion Graphics & Animations">
+                                    <label for="motion-graphics">Motion Graphics & Animations</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="event-video" name="services" value="Event Video Editing">
+                                    <label for="event-video">Event Video Editing</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="live-streaming" name="services" value="Live Streaming">
+                                    <label for="live-streaming">Live Streaming for Churches & Conferences</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="social-media" name="services" value="Social Media Video Creation">
+                                    <label for="social-media">Social Media Video Creation</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="poster-banner" name="services" value="Poster & Banner Design">
+                                    <label for="poster-banner">Poster & Banner Design</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="youtube-editing" name="services" value="YouTube Channel Editing">
+                                    <label for="youtube-editing">YouTube Channel Editing</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="photo-editing" name="services" value="Photo Editing & Enhancement">
+                                    <label for="photo-editing">Photo Editing & Enhancement</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Details -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-clipboard-list"></i> Project Details</h3>
+                        <div class="form-group">
+                            <label for="projectTitle">Project Title *</label>
+                            <input type="text" id="projectTitle" name="projectTitle" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="projectDescription">Project Description *</label>
+                            <textarea id="projectDescription" name="projectDescription" rows="5" placeholder="Please describe your project in detail. Include objectives, target audience, style preferences, and any specific requirements." required></textarea>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="budget">Estimated Budget Range</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Select Budget Range</option>
+                                    <option value="Under $500">Under $500</option>
+                                    <option value="$500 - $1,000">$500 - $1,000</option>
+                                    <option value="$1,000 - $2,500">$1,000 - $2,500</option>
+                                    <option value="$2,500 - $5,000">$2,500 - $5,000</option>
+                                    <option value="$5,000 - $10,000">$5,000 - $10,000</option>
+                                    <option value="Over $10,000">Over $10,000</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="timeline">Project Timeline</label>
+                                <select id="timeline" name="timeline">
+                                    <option value="">Select Timeline</option>
+                                    <option value="Rush (1-2 weeks)">Rush (1-2 weeks)</option>
+                                    <option value="Standard (2-4 weeks)">Standard (2-4 weeks)</option>
+                                    <option value="Extended (1-2 months)">Extended (1-2 months)</option>
+                                    <option value="Flexible">Flexible</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inspiration">Inspiration/References</label>
+                            <textarea id="inspiration" name="inspiration" rows="3" placeholder="Share any inspiration, references, or examples that align with your vision. Include URLs if applicable."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Additional Information -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-plus-circle"></i> Additional Information</h3>
+                        <div class="form-group">
+                            <label for="additionalInfo">Additional Notes</label>
+                            <textarea id="additionalInfo" name="additionalInfo" rows="3" placeholder="Any additional information that would help us understand your project better."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                                <label for="newsletter">Subscribe to our newsletter for creative tips and updates</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="form-submit">
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Quote Request
+                        </button>
+                        <p class="form-note">We'll review your request and get back to you within 24 hours.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Process Section -->
+    <section class="quote-process">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3>1. Submit Request</h3>
+                    <p>Fill out our detailed quote form with your project requirements and vision.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>2. Consultation</h3>
+                    <p>We'll schedule a call to discuss your project and clarify any details.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>3. Custom Quote</h3>
+                    <p>Receive a detailed, personalized quote within 24 hours.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>4. Project Launch</h3>
+                    <p>Once approved, we'll begin bringing your creative vision to life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <h2>Benique Creations</h2>
+                    <p>Where creativity meets precision. Transform your vision into stunning reality with our professional design and video services.</p>
+                </div>
+                
+                <div class="footer-cta">
+                    <h3>Ready to Start Your Project?</h3>
+                    <div class="footer-buttons">
+                        <a href="request-quote.html" class="footer-btn quote-btn">
+                            <i class="fas fa-calculator"></i>
+                            <span>Request Quote</span>
+                        </a>
+                        <a href="#contact" class="footer-btn contact-btn">
+                            <i class="fas fa-envelope"></i>
+                            <span>Get In Touch</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Logo & Brand Design</a></li>
+                        <li><a href="#">Motion Graphics</a></li>
+                        <li><a href="#">Video Editing</a></li>
+                        <li><a href="#">Live Streaming</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                            <span>YouTube</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-divider"></div>
+                <div class="footer-bottom-content">
+                    <p>&copy; 2023 Benique Creations. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="js/quote.js"></script>
+</body>
+</html>

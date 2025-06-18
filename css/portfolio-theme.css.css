@@ -1,0 +1,172 @@
+/* Theme Colors */
+:root {
+    --primary-color: #4a90e2;
+    --secondary-color: #f8f9fa;
+    --text-color: #333;
+    --light-text: #666;
+    --white: #fff;
+    --dark: #333;
+    --shadow: rgba(0, 0, 0, 0.1);
+}
+
+/* Theme Classes */
+.theme-primary {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.theme-secondary {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+.theme-text {
+    color: var(--text-color);
+}
+
+.theme-light-text {
+    color: var(--light-text);
+}
+
+/* Theme Transitions */
+.theme-transition {
+    transition: all 0.3s ease;
+}
+
+/* Theme Buttons */
+.theme-button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.theme-button:hover {
+    background-color: #3a7bc8;
+}
+
+/* Theme Cards */
+.theme-card {
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 5px 15px var(--shadow);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.theme-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px var(--shadow);
+}
+
+/* Theme Headings */
+.theme-heading {
+    color: var(--primary-color);
+}
+
+/* Theme Links */
+.theme-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.theme-link:hover {
+    color: #3a7bc8;
+    text-decoration: underline;
+}
+
+/* Theme Modals */
+.theme-modal {
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 15px 30px var(--shadow);
+}
+
+.theme-modal-header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.theme-modal-body {
+    padding: 20px;
+}
+
+.theme-modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid var(--secondary-color);
+}
+
+/* Theme Inputs */
+.theme-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.theme-input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+    outline: none;
+}
+
+/* Theme Buttons in Forms */
+.theme-form-button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.theme-form-button:hover {
+    background-color: #3a7bc8;
+}
+
+/* Theme for Lightbox */
+.theme-lightbox {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--white);
+}
+
+.theme-lightbox-content {
+    background-color: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.theme-lightbox-image {
+    width: 100%;
+    display: block;
+}
+
+.theme-lightbox-caption {
+    padding: 15px;
+    background-color: var(--white);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.theme-lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: var(--white);
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+

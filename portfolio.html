@@ -1,61 +1,1184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Logo & Brand Design</title>
-  <link rel="stylesheet" href="css/portfolio-theme.css">
-  <link rel="stylesheet" href="css/portfolio-layout.css">
-  <script src="js/portfolio.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Portfolio</title>
+    <link rel="stylesheet" href="css/portfoliostyle.css">
+    <link rel="stylesheet" href="css/portfolio-theme.css">
+    <link rel="stylesheet" href="css/portfolio-layout.css">
+    <link rel="stylesheet" href="css/portfolioservice.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="jss/portfolio.js" defer></script>
+    <script src="jss/portfolioservice.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-zoom.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-thumbnail.min.css">
 </head>
 <body>
-  <header class="portfolio-header">
-    <h1>Logo & Brand Design</h1>
-    <p>Crafting Visual Identities That Speak for You</p>
-  </header>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Benique Creations</h1>
+            </div>
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="quote.html">REQUEST QUOTE</a></li>
+                   <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="testimonial.html">Testimonials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <section class="portfolio-hero">
-    <video autoplay muted loop>
-      <source src="assets/logo-hero.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </section>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Creative Solutions for Your Brand</h1>
+            <p>Professional design, video editing, and streaming services</p>
+            <a href="#services" class="cta-button">View My Work</a>
+        </div>
+    </section>
 
-  <section class="portfolio-body">
-    <div class="subsection-menu">
-      <button onclick="showSlideshow('logo')">Logo Design</button>
-      <button onclick="showSlideshow('brand-kits')">Brand Kits</button>
-      <button onclick="showSlideshow('business-cards')">Business Cards</button>
-      <button onclick="showSlideshow('packaging')">Packaging Design</button>
-      <button onclick="showSlideshow('social-media')">Social Media Branding</button>
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            
+            <!-- Service 1: Logo & Brand Design -->
+<div class="service-container" id="service-1">
+    <div class="service-header">
+        <div class="video-banner">
+            <div class="video-overlay">
+                <div class="banner-content">
+                    <h2>Logo & Brand Design</h2>
+                    <p>Creating unique visual identities that resonate with your audience</p>
+                    <button class="cta-button">Get a Quote</button>
+                </div>
+            </div>
+        </div>
     </div>
+    
+    <div class="service-content">
+        <div class="services-grid">
+            <div class="service-card" data-service="logo-design">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <polygon points="10,8 16,12 10,16"/>
+                    </svg>
+                </div>
+                <h3>Logo Design</h3>
+                <p>Crafting memorable and impactful logos that define your brand identity</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Custom logo concepts</li>
+                        <li>Multiple design variations</li>
+                        <li>Vector format delivery</li>
+                        <li>Unlimited revisions</li>
+                    </ul>
+                </div>
+            </div>
 
-    <div class="slideshow-container">
-      <div id="logo" class="slideshow active">
-        <img src="images/logo1.jpg" alt="Logo 1">
-        <img src="images/logo2.jpg" alt="Logo 2">
-      </div>
-      <div id="brand-kits" class="slideshow">
-        <img src="images/brand1.jpg" alt="Brand Kit 1">
-        <img src="images/brand2.jpg" alt="Brand Kit 2">
-      </div>
-      <div id="business-cards" class="slideshow">
-        <img src="images/card1.jpg" alt="Card 1">
-        <img src="images/card2.jpg" alt="Card 2">
-      </div>
-      <div id="packaging" class="slideshow">
-        <img src="images/package1.jpg" alt="Package 1">
-        <img src="images/package2.jpg" alt="Package 2">
-      </div>
-      <div id="social-media" class="slideshow">
-        <img src="images/social1.jpg" alt="Social Branding 1">
-        <img src="images/social2.jpg" alt="Social Branding 2">
-      </div>
+            <div class="service-card" data-service="brand-guidelines">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14,2 14,8 20,8"/>
+                        <line x1="16" y1="13" x2="8" y2="13"/>
+                        <line x1="16" y1="17" x2="8" y2="17"/>
+                        <polyline points="10,9 9,9 8,9"/>
+                    </svg>
+                </div>
+                <h3>Brand Guidelines & Kits</h3>
+                <p>Comprehensive brand standards to maintain consistency across all platforms</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Color palette specifications</li>
+                        <li>Typography guidelines</li>
+                        <li>Logo usage standards</li>
+                        <li>Brand voice & tone</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="business-cards">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                        <line x1="8" y1="21" x2="16" y2="21"/>
+                        <line x1="12" y1="17" x2="12" y2="21"/>
+                    </svg>
+                </div>
+                <h3>Business Cards & Stationery</h3>
+                <p>Professional print materials that make lasting first impressions</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Business card design</li>
+                        <li>Letterhead templates</li>
+                        <li>Envelope designs</li>
+                        <li>Print-ready files</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="packaging">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12.89 1.45l8 4A2 2 0 0 1 22 7.24v9.53a2 2 0 0 1-1.11 1.79l-8 4a2 2 0 0 1-1.78 0l-8-4a2 2 0 0 1-1.11-1.79V7.24a2 2 0 0 1 1.11-1.79l8-4a2 2 0 0 1 1.78 0z"/>
+                        <polyline points="2.32,6.16 12,11 21.68,6.16"/>
+                        <line x1="12" y1="22.76" x2="12" y2="11"/>
+                    </svg>
+                </div>
+                <h3>Packaging Design</h3>
+                <p>Eye-catching packaging that protects and promotes your products</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Product packaging</li>
+                        <li>Label designs</li>
+                        <li>Box & container design</li>
+                        <li>3D mockups</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="social-media">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                    </svg>
+                </div>
+                <h3>Social Media Branding</h3>
+                <p>Cohesive social media presence that amplifies your brand message</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Profile & cover designs</li>
+                        <li>Post templates</li>
+                        <li>Story highlights</li>
+                        <li>Social media kit</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal -->
+        <div class="portfolio-modal" id="portfolioModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-header">
+                    <h3 id="modalTitle">Portfolio</h3>
+                </div>
+                <div class="portfolio-gallery">
+                    <div class="gallery-container">
+                        <!-- Gallery images will be loaded here dynamically -->
+                    </div>
+                    <div class="gallery-nav">
+                        <button class="nav-btn prev-btn">&larr;</button>
+                        <button class="nav-btn next-btn">&rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </section>
+</div>
+            
+            <!-- Service 2: Motion Graphics & Animations -->
+            <!-- Service 2: Motion Graphics & Animations -->
+<div class="service-container" id="service-2">
+    <div class="service-header">
+        <div class="video-banner">
+            <div class="video-overlay">
+                <div class="banner-content">
+                    <h2>Motion Graphics & Animations</h2>
+                    <p>Bringing your ideas to life through engaging animations and motion graphics</p>
+                    <button class="cta-button">Get a Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="service-content">
+        <div class="services-grid">
+            <div class="service-card" data-service="intro-animations">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="5,3 19,12 5,21"/>
+                    </svg>
+                </div>
+                <h3>Intro Animations</h3>
+                <p>Captivating animated intros that grab attention from the first second</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Custom animated openings</li>
+                        <li>Brand-focused designs</li>
+                        <li>Multiple duration options</li>
+                        <li>HD/4K delivery</li>
+                    </ul>
+                </div>
+            </div>
 
-  <footer class="portfolio-footer">
-    <p>&copy; 2025 Benique Creations | All rights reserved.</p>
-  </footer>
+            <div class="service-card" data-service="logo-animations">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M8 12l2 2 4-4"/>
+                        <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83"/>
+                    </svg>
+                </div>
+                <h3>Logo Animations</h3>
+                <p>Dynamic logo reveals and animations that make your brand memorable</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Logo reveal animations</li>
+                        <li>Kinetic typography</li>
+                        <li>Seamless transitions</li>
+                        <li>Multiple format exports</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="lower-thirds">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="16" rx="2"/>
+                        <path d="M7 8h10M7 12h8M7 16h6"/>
+                    </svg>
+                </div>
+                <h3>Lower Thirds & Text Effects</h3>
+                <p>Professional text animations and graphics for videos and presentations</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Animated lower thirds</li>
+                        <li>Title sequences</li>
+                        <li>Text effect animations</li>
+                        <li>Custom typography</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="explainer-videos">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M23 7l-7 5 7 5V7z"/>
+                        <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+                        <path d="M8 10l3 2-3 2V10z"/>
+                    </svg>
+                </div>
+                <h3>Explainer Videos</h3>
+                <p>Engaging animated videos that simplify complex concepts and ideas</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>2D character animation</li>
+                        <li>Infographic animations</li>
+                        <li>Process visualization</li>
+                        <li>Voiceover integration</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="visual-effects">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        <circle cx="12" cy="12" r="3"/>
+                    </svg>
+                </div>
+                <h3>Visual Effects for Sermons/Events</h3>
+                <p>Spiritual and impactful visual effects that enhance worship experiences</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Worship backgrounds</li>
+                        <li>Scripture animations</li>
+                        <li>Event title sequences</li>
+                        <li>Particle effects</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal -->
+        <div class="portfolio-modal" id="portfolioModal2">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-header">
+                    <h3 id="modalTitle2">Portfolio</h3>
+                </div>
+                <div class="portfolio-gallery">
+                    <div class="gallery-container">
+                        <!-- Gallery images will be loaded here dynamically -->
+                    </div>
+                    <div class="gallery-nav">
+                        <button class="nav-btn prev-btn">&larr;</button>
+                        <button class="nav-btn next-btn">&rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            
+           <!-- Service 3: Event Video Editing -->
+<div class="service-container" id="service-3">
+    <div class="service-header">
+        <div class="video-banner">
+            <div class="video-overlay">
+                <div class="banner-content">
+                    <h2>Event Video Editing</h2>
+                    <p>Capturing and enhancing your special moments with professional video editing</p>
+                    <button class="cta-button">Get a Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="service-content">
+        <div class="services-grid">
+            <div class="service-card" data-service="church-edits">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2 2z"/>
+                        <path d="M8 21l4-7 4 7"/>
+                        <path d="M9 9h.01"/>
+                    </svg>
+                </div>
+                <h3>Church Service Edits</h3>
+                <p>Professional editing for sermons, worship services, and church events with seamless transitions</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Multi-camera editing</li>
+                        <li>Audio enhancement</li>
+                        <li>Lower thirds & graphics</li>
+                        <li>Scripture overlays</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="wedding-edits">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                    </svg>
+                </div>
+                <h3>Wedding & Ceremony Edits</h3>
+                <p>Cinematic wedding videos that preserve your most precious moments forever</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Ceremony highlights</li>
+                        <li>Reception coverage</li>
+                        <li>Romantic storytelling</li>
+                        <li>Custom music sync</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="highlight-reels">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                    </svg>
+                </div>
+                <h3>Highlight Reels</h3>
+                <p>Dynamic highlight videos that capture the energy and key moments of your events</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Fast-paced editing</li>
+                        <li>Beat-synchronized cuts</li>
+                        <li>Motion graphics</li>
+                        <li>Social media ready</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="interviews">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/>
+                        <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                        <line x1="12" y1="19" x2="12" y2="23"/>
+                        <line x1="8" y1="23" x2="16" y2="23"/>
+                    </svg>
+                </div>
+                <h3>Interviews & Testimonials</h3>
+                <p>Professional interview editing with clear audio and engaging visual presentation</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Audio cleanup</li>
+                        <li>B-roll integration</li>
+                        <li>Speaker identification</li>
+                        <li>Subtitle options</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="external-audio">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 18V5l12-2v13"/>
+                        <circle cx="6" cy="18" r="3"/>
+                        <circle cx="18" cy="16" r="3"/>
+                    </svg>
+                </div>
+                <h3>Sync with External Audio</h3>
+                <p>Perfect audio-video synchronization using external audio sources for crystal-clear sound</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Multi-track sync</li>
+                        <li>Audio enhancement</li>
+                        <li>Noise reduction</li>
+                        <li>Professional mixing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal -->
+        <div class="portfolio-modal" id="portfolioModal3">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-header">
+                    <h3 id="modalTitle3">Portfolio</h3>
+                </div>
+                <div class="portfolio-gallery">
+                    <div class="gallery-container">
+                        <!-- Gallery images will be loaded here dynamically -->
+                    </div>
+                    <div class="gallery-nav">
+                        <button class="nav-btn prev-btn">&larr;</button>
+                        <button class="nav-btn next-btn">&rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Service 4: Live Streaming for Churches & Conferences -->
+<div class="service-container" id="service-4">
+    <div class="service-header">
+        <div class="video-banner">
+            <div class="video-overlay">
+                <div class="banner-content">
+                    <h2>Live Streaming for Churches & Conferences</h2>
+                    <p>Connecting your audience across distances with professional live streaming</p>
+                    <button class="cta-button">Get a Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="service-content">
+        <div class="services-grid">
+            <div class="service-card" data-service="obs-setup">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                        <line x1="8" y1="21" x2="16" y2="21"/>
+                        <line x1="12" y1="17" x2="12" y2="21"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                </div>
+                <h3>OBS/vMix Setup</h3>
+                <p>Professional streaming software configuration for seamless live broadcasts</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Custom scene setups</li>
+                        <li>Source optimization</li>
+                        <li>Plugin integration</li>
+                        <li>Performance tuning</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="camera-angles">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                        <circle cx="12" cy="13" r="4"/>
+                    </svg>
+                </div>
+                <h3>Camera Angles & Switches</h3>
+                <p>Dynamic multi-camera setups with smooth transitions and professional switching</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Multi-camera coordination</li>
+                        <li>Smooth transitions</li>
+                        <li>Remote camera control</li>
+                        <li>Live switching</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="streaming-layouts">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                        <rect x="7" y="7" width="3" height="9"/>
+                        <rect x="14" y="7" width="3" height="5"/>
+                    </svg>
+                </div>
+                <h3>Streaming Layout Designs</h3>
+                <p>Custom overlay designs and branded streaming layouts that enhance viewer experience</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Custom overlays</li>
+                        <li>Brand integration</li>
+                        <li>Lower thirds</li>
+                        <li>Interactive elements</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="worship-captures">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 12l2 2 4-4"/>
+                        <path d="M21 12c.552 0 1-.448 1-1V9c0-.552-.448-1-1-1h-1V7a2 2 0 00-2-2H5a2 2 0 00-2 2v1H2c-.552 0-1 .448-1 1v2c0 .552.448 1 1 1h1v1a2 2 0 002 2h13a2 2 0 002-2v-1h1z"/>
+                    </svg>
+                </div>
+                <h3>Live Worship & Sermon Captures</h3>
+                <p>Specialized streaming for worship services with optimal audio and visual quality</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Worship band coverage</li>
+                        <li>Sermon focus shots</li>
+                        <li>Congregation views</li>
+                        <li>Audio board integration</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="behind-scenes">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14.828 14.828a4 4 0 0 1-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/>
+                    </svg>
+                </div>
+                <h3>Behind-the-Scenes Process</h3>
+                <p>Complete streaming workflow management from setup to broadcast completion</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Pre-event setup</li>
+                        <li>Live monitoring</li>
+                        <li>Technical support</li>
+                        <li>Post-stream analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal -->
+        <div class="portfolio-modal" id="portfolioModal4">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-header">
+                    <h3 id="modalTitle4">Portfolio</h3>
+                </div>
+                <div class="portfolio-gallery">
+                    <div class="gallery-container">
+                        <!-- Gallery images will be loaded here dynamically -->
+                    </div>
+                    <div class="gallery-nav">
+                        <button class="nav-btn prev-btn">&larr;</button>
+                        <button class="nav-btn next-btn">&rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>     
+           <!-- Service 5: Social Media Video Creation -->
+<div class="service-container" id="service-5">
+    <div class="service-header">
+        <div class="video-banner">
+            <div class="video-overlay">
+                <div class="banner-content">
+                    <h2>Social Media Video Creation</h2>
+                    <p>Capturing attention in the fast-paced world of social media with engaging content</p>
+                    <button class="cta-button">Get a Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="service-content">
+        <div class="services-grid">
+            <div class="service-card" data-service="reels">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                        <line x1="8" y1="21" x2="16" y2="21"/>
+                        <line x1="12" y1="17" x2="12" y2="21"/>
+                        <polygon points="10,8 16,12 10,16"/>
+                    </svg>
+                </div>
+                <h3>Reels & Shorts</h3>
+                <p>Viral-ready vertical videos optimized for Instagram Reels, TikTok, and YouTube Shorts</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>9:16 vertical format</li>
+                        <li>Trending effects & transitions</li>
+                        <li>Catchy hooks & CTAs</li>
+                        <li>Platform-specific optimization</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="testimonials">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        <path d="M13 8H7"/>
+                        <path d="M17 12H7"/>
+                    </svg>
+                </div>
+                <h3>Testimonial Videos</h3>
+                <p>Authentic testimonial videos that build trust and showcase real experiences</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Professional interview setup</li>
+                        <li>Emotional storytelling</li>
+                        <li>Brand-consistent graphics</li>
+                        <li>Multiple format outputs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="announcements">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 11l18-5v12L3 14v-3z"/>
+                        <path d="M11.6 16.8a3 3 0 11-5.8-1.6"/>
+                    </svg>
+                </div>
+                <h3>Church Announcements</h3>
+                <p>Engaging announcement videos that keep your congregation informed and excited</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Event promotion videos</li>
+                        <li>Service updates</li>
+                        <li>Ministry highlights</li>
+                        <li>Community news</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="quotes">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+                        <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+                    </svg>
+                </div>
+                <h3>Quote Motion Graphics</h3>
+                <p>Inspirational quote videos with beautiful typography and motion graphics</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Scripture verses</li>
+                        <li>Motivational quotes</li>
+                        <li>Animated typography</li>
+                        <li>Background music sync</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="sermons">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+                        <path d="M12 7v6"/>
+                        <path d="M9 10h6"/>
+                    </svg>
+                </div>
+                <h3>Mini Sermons</h3>
+                <p>Bite-sized sermon clips perfect for social media sharing and spiritual inspiration</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Key sermon highlights</li>
+                        <li>Devotional messages</li>
+                        <li>Teaching moments</li>
+                        <li>Scripture-focused content</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal -->
+        <div class="portfolio-modal" id="portfolioModal5">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-header">
+                    <h3 id="modalTitle5">Portfolio</h3>
+                </div>
+                <div class="portfolio-gallery">
+                    <div class="gallery-container">
+                        <!-- Gallery images will be loaded here dynamically -->
+                    </div>
+                    <div class="gallery-nav">
+                        <button class="nav-btn prev-btn">&larr;</button>
+                        <button class="nav-btn next-btn">&rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Service 6: Poster & Banner Design -->
+<div class="service-container" id="service-6">
+    <div class="service-header">
+        <div class="video-banner">
+            <div class="video-overlay">
+                <div class="banner-content">
+                    <h2>Poster & Banner Design</h2>
+                    <p>Capturing attention in print and digital spaces with eye-catching designs</p>
+                    <button class="cta-button">Get a Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="service-content">
+        <div class="services-grid">
+            <div class="service-card" data-service="event-posters">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                        <line x1="16" y1="2" x2="16" y2="6"/>
+                        <line x1="8" y1="2" x2="8" y2="6"/>
+                        <line x1="3" y1="10" x2="21" y2="10"/>
+                        <path d="M8 14h.01"/>
+                        <path d="M12 14h.01"/>
+                        <path d="M16 14h.01"/>
+                        <path d="M8 18h.01"/>
+                        <path d="M12 18h.01"/>
+                        <path d="M16 18h.01"/>
+                    </svg>
+                </div>
+                <h3>Event Posters</h3>
+                <p>Professional event posters that generate excitement and drive attendance</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Conference posters</li>
+                        <li>Concert & performance ads</li>
+                        <li>Workshop promotions</li>
+                        <li>Community event flyers</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="social-banners">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                        <line x1="8" y1="21" x2="16" y2="21"/>
+                        <line x1="12" y1="17" x2="12" y2="21"/>
+                        <path d="M7 8h10"/>
+                        <path d="M7 12h10"/>
+                    </svg>
+                </div>
+                <h3>Social Media Banners</h3>
+                <p>Platform-optimized banners and covers that enhance your social media presence</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Facebook cover photos</li>
+                        <li>Instagram story highlights</li>
+                        <li>YouTube channel art</li>
+                        <li>LinkedIn company banners</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="church-campaigns">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+                        <path d="M9 7h6"/>
+                        <path d="M9 11h6"/>
+                        <path d="M9 15h4"/>
+                    </svg>
+                </div>
+                <h3>Church Campaign Posters</h3>
+                <p>Inspiring campaign materials that communicate your church's mission and values</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Sermon series graphics</li>
+                        <li>Ministry campaigns</li>
+                        <li>Seasonal celebrations</li>
+                        <li>Outreach programs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="fundraisers">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                    </svg>
+                </div>
+                <h3>Fundraiser Posters</h3>
+                <p>Compelling fundraising materials that inspire generosity and support for your cause</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Charity events</li>
+                        <li>Mission trip funding</li>
+                        <li>Building campaigns</li>
+                        <li>Community support drives</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="billboards">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="7" width="20" height="10" rx="2" ry="2"/>
+                        <line x1="6" y1="17" x2="6" y2="21"/>
+                        <line x1="18" y1="17" x2="18" y2="21"/>
+                        <line x1="4" y1="21" x2="20" y2="21"/>
+                        <path d="M7 11h10"/>
+                        <path d="M7 13h6"/>
+                    </svg>
+                </div>
+                <h3>Billboard & Pull-Up Banners</h3>
+                <p>Large-format displays that make a bold statement and maximize visibility</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Trade show displays</li>
+                        <li>Church entrance banners</li>
+                        <li>Outdoor advertising</li>
+                        <li>Retractable banner stands</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal -->
+        <div class="portfolio-modal" id="portfolioModal6">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-header">
+                    <h3 id="modalTitle6">Portfolio</h3>
+                </div>
+                <div class="portfolio-gallery">
+                    <div class="gallery-container">
+                        <!-- Gallery images will be loaded here dynamically -->
+                    </div>
+                    <div class="gallery-nav">
+                        <button class="nav-btn prev-btn">&larr;</button>
+                        <button class="nav-btn next-btn">&rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            
+            <!-- Service 7: YouTube Channel Editing -->
+<div class="service-container" id="service-7">
+    <div class="service-header">
+        <div class="video-banner">
+            <div class="video-overlay">
+                <div class="banner-content">
+                    <h2>YouTube Channel Editing</h2>
+                    <p>Creating professional YouTube content that engages and grows your audience</p>
+                    <button class="cta-button">Get a Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="service-content">
+        <div class="services-grid">
+            <div class="service-card" data-service="intros-outros">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="5,3 19,12 5,21"/>
+                        <circle cx="12" cy="12" r="2"/>
+                    </svg>
+                </div>
+                <h3>Intros & Outros</h3>
+                <p>Captivating opening and closing sequences that brand your channel</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Custom animated intros</li>
+                        <li>Professional outros</li>
+                        <li>Brand-consistent design</li>
+                        <li>Music synchronization</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="episode-editing">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                        <line x1="8" y1="21" x2="16" y2="21"/>
+                        <line x1="12" y1="17" x2="12" y2="21"/>
+                        <polygon points="10,8 16,12 10,16"/>
+                    </svg>
+                </div>
+                <h3>Episode Editing</h3>
+                <p>Complete video editing services to make your content shine</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Professional cutting & pacing</li>
+                        <li>Audio enhancement</li>
+                        <li>B-roll integration</li>
+                        <li>Jump cut removal</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="thumbnails">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                        <circle cx="8.5" cy="8.5" r="1.5"/>
+                        <polyline points="21,15 16,10 5,21"/>
+                    </svg>
+                </div>
+                <h3>Thumbnail Designs</h3>
+                <p>Eye-catching thumbnails that increase click-through rates</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>High-impact designs</li>
+                        <li>A/B testing variations</li>
+                        <li>Platform optimization</li>
+                        <li>Brand consistency</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="transitions">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                        <polyline points="7.5,4.21 12,6.81 16.5,4.21"/>
+                        <polyline points="7.5,19.79 7.5,14.6 3,12"/>
+                        <polyline points="21,12 16.5,14.6 16.5,19.79"/>
+                        <polyline points="3.27,6.96 12,12.01 20.73,6.96"/>
+                        <line x1="12" y1="22.08" x2="12" y2="12"/>
+                    </svg>
+                </div>
+                <h3>Transitions & Effects</h3>
+                <p>Smooth transitions and visual effects that enhance storytelling</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Custom transitions</li>
+                        <li>Motion graphics</li>
+                        <li>Visual effects</li>
+                        <li>Text animations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="call-to-action">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                        <circle cx="12" cy="8" r="2"/>
+                    </svg>
+                </div>
+                <h3>Call-to-Action Overlays</h3>
+                <p>Strategic overlays that drive engagement and subscriptions</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Subscribe animations</li>
+                        <li>Like & share prompts</li>
+                        <li>End screen elements</li>
+                        <li>Interactive overlays</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal -->
+        <div class="portfolio-modal" id="portfolioModal-7">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-header">
+                    <h3 id="modalTitle-7">Portfolio</h3>
+                </div>
+                <div class="portfolio-gallery">
+                    <div class="gallery-container">
+                        <!-- Gallery images will be loaded here dynamically -->
+                    </div>
+                    <div class="gallery-nav">
+                        <button class="nav-btn prev-btn">&larr;</button>
+                        <button class="nav-btn next-btn">&rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Service 8: Photo Editing & Enhancement -->
+<div class="service-container" id="service-8">
+    <div class="service-header">
+        <div class="video-banner">
+            <div class="video-overlay">
+                <div class="banner-content">
+                    <h2>Photo Editing & Enhancement</h2>
+                    <p>Transforming ordinary photos into extraordinary visual stories</p>
+                    <button class="cta-button">Get a Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="service-content">
+        <div class="services-grid">
+            <div class="service-card" data-service="portrait-retouching">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                        <circle cx="12" cy="7" r="4"/>
+                        <path d="M14 14l2 2 4-4"/>
+                    </svg>
+                </div>
+                <h3>Portrait Retouching</h3>
+                <p>Professional portrait enhancement that brings out natural beauty</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Skin smoothing & blemish removal</li>
+                        <li>Eye enhancement</li>
+                        <li>Hair & makeup refinement</li>
+                        <li>Natural-looking results</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="background-removal">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 4H8l-7 8 7 8h13a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"/>
+                        <line x1="18" y1="9" x2="12" y2="15"/>
+                        <line x1="12" y1="9" x2="18" y2="15"/>
+                    </svg>
+                </div>
+                <h3>Background Removal</h3>
+                <p>Precise background removal and replacement services</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Clean cutouts</li>
+                        <li>Hair & edge refinement</li>
+                        <li>Background replacement</li>
+                        <li>Transparent PNG delivery</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="event-enhancements">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                        <line x1="16" y1="2" x2="16" y2="6"/>
+                        <line x1="8" y1="2" x2="8" y2="6"/>
+                        <line x1="3" y1="10" x2="21" y2="10"/>
+                        <path d="M8 14h.01"/>
+                        <path d="M12 14h.01"/>
+                        <path d="M16 14h.01"/>
+                        <path d="M8 18h.01"/>
+                        <path d="M12 18h.01"/>
+                        <path d="M16 18h.01"/>
+                    </svg>
+                </div>
+                <h3>Event Photography Enhancement</h3>
+                <p>Making your special moments look their absolute best</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Wedding photo enhancement</li>
+                        <li>Corporate event editing</li>
+                        <li>Group photo optimization</li>
+                        <li>Batch processing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="color-grading">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M12 2a10 10 0 0 1 10 10"/>
+                        <path d="M12 2a10 10 0 0 0-10 10"/>
+                        <path d="M12 12l8-8"/>
+                    </svg>
+                </div>
+                <h3>Color Grading</h3>
+                <p>Professional color correction that sets the perfect mood</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Color temperature adjustment</li>
+                        <li>Mood enhancement</li>
+                        <li>Cinematic looks</li>
+                        <li>Consistent color themes</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-card" data-service="lighting-correction">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2v1"/>
+                        <path d="M12 21v1"/>
+                        <path d="M4.22 4.22l.707.707"/>
+                        <path d="M18.364 18.364l.707.707"/>
+                        <path d="M1 12h1"/>
+                        <path d="M22 12h1"/>
+                        <path d="M4.22 19.78l.707-.707"/>
+                        <path d="M18.364 5.636l.707-.707"/>
+                        <circle cx="12" cy="12" r="5"/>
+                    </svg>
+                </div>
+                <h3>Lighting & Tone Correction</h3>
+                <p>Optimizing exposure and contrast for stunning results</p>
+                <div class="card-hover-content">
+                    <ul>
+                        <li>Exposure correction</li>
+                        <li>Shadow & highlight recovery</li>
+                        <li>Contrast optimization</li>
+                        <li>HDR tone mapping</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal -->
+        <div class="portfolio-modal" id="portfolioModal-8">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-header">
+                    <h3 id="modalTitle-8">Portfolio</h3>
+                </div>
+                <div class="portfolio-gallery">
+                    <div class="gallery-container">
+                        <!-- Gallery images will be loaded here dynamically -->
+                    </div>
+                    <div class="gallery-nav">
+                        <button class="nav-btn prev-btn">&larr;</button>
+                        <button class="nav-btn next-btn">&rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Creative Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
