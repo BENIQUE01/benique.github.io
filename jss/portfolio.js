@@ -7,51 +7,31 @@ document.addEventListener('DOMContentLoaded', function() {
         'logo-design': {
             title: 'Logo Design Portfolio',
             images: [
-                'https://picsum.photos/seed/logodesign1/600/400',
-                'https://picsum.photos/seed/logodesign2/600/400',
-                'https://picsum.photos/seed/logodesign3/600/400',
-                'https://picsum.photos/seed/logodesign4/600/400',
-                'https://picsum.photos/seed/logodesign5/600/400'
+                'images/motion/Logo.jpeg'               
             ]
         },
         'brand-guidelines': {
             title: 'Brand Guidelines Portfolio',
             images: [
-                'https://picsum.photos/seed/brandguidelines1/600/400',
-                'https://picsum.photos/seed/brandguidelines2/600/400',
-                'https://picsum.photos/seed/brandguidelines3/600/400',
-                'https://picsum.photos/seed/brandguidelines4/600/400',
-                'https://picsum.photos/seed/brandguidelines5/600/400'
+                'images/motion/Brand.jpeg'
             ]
         },
         'business-cards': {
             title: 'Business Cards Portfolio',
             images: [
-                'https://picsum.photos/seed/businesscard1/600/400',
-                'https://picsum.photos/seed/businesscard2/600/400',
-                'https://picsum.photos/seed/businesscard3/600/400',
-                'https://picsum.photos/seed/businesscard4/600/400',
-                'https://picsum.photos/seed/businesscard5/600/400'
+                'images/motion/Business-Cards.jpeg'
             ]
         },
         'packaging': {
             title: 'Packaging Design Portfolio',
             images: [
-                'https://picsum.photos/seed/packaging1/600/400',
-                'https://picsum.photos/seed/packaging2/600/400',
-                'https://picsum.photos/seed/packaging3/600/400',
-                'https://picsum.photos/seed/packaging4/600/400',
-                'https://picsum.photos/seed/packaging5/600/400'
+                'images/motion/Packaging.jpeg'
             ]
         },
         'social-media': {
             title: 'Social Media Branding Portfolio',
             images: [
-                'https://picsum.photos/seed/socialmedia1/600/400',
-                'https://picsum.photos/seed/socialmedia2/600/400',
-                'https://picsum.photos/seed/socialmedia3/600/400',
-                'https://picsum.photos/seed/socialmedia4/600/400',
-                'https://picsum.photos/seed/socialmedia5/600/400'
+                'images/motion/Social-Media.jpeg'
             ]
         },
 
@@ -59,244 +39,134 @@ document.addEventListener('DOMContentLoaded', function() {
         'intro-animations': {
             title: 'Intro Animations',
             images: [
-                'https://picsum.photos/seed/introanimation1/800/600.jpg',
-                'https://picsum.photos/seed/introanimation2/800/600.jpg',
-                'https://picsum.photos/seed/introanimation3/800/600.jpg',
-                'https://picsum.photos/seed/introanimation4/800/600.jpg',
-                'https://picsum.photos/seed/introanimation5/800/600.jpg'
+                'images/motion/Intro-Ani.jpeg'
             ]
         },
         'logo-animations': {
             title: 'Logo Animations',
             images: [
-                'https://picsum.photos/seed/logoanimation1/800/600.jpg',
-                'https://picsum.photos/seed/logoanimation2/800/600.jpg',
-                'https://picsum.photos/seed/logoanimation3/800/600.jpg',
-                'https://picsum.photos/seed/logoanimation4/800/600.jpg',
-                'https://picsum.photos/seed/logoanimation5/800/600.jpg'
+                'images/motion/Logo-Ani.jpeg'
             ]
         },
         'lower-thirds': {
             title: 'Lower Thirds & Text Effects',
             images: [
-                'https://picsum.photos/seed/lowerthird1/800/600.jpg',
-                'https://picsum.photos/seed/lowerthird2/800/600.jpg',
-                'https://picsum.photos/seed/lowerthird3/800/600.jpg',
-                'https://picsum.photos/seed/lowerthird4/800/600.jpg',
-                'https://picsum.photos/seed/lowerthird5/800/600.jpg'
+                'images/motion/Lower-Thirds.jpeg'
             ]
         },
         'explainer-videos': {
             title: 'Explainer Videos',
             images: [
-                'https://picsum.photos/seed/explainer1/800/600.jpg',
-                'https://picsum.photos/seed/explainer2/800/600.jpg',
-                'https://picsum.photos/seed/explainer3/800/600.jpg',
-                'https://picsum.photos/seed/explainer4/800/600.jpg',
-                'https://picsum.photos/seed/explainer5/800/600.jpg'
+               'images/motion/Explainer-V.jpeg'
             ]
         },
         'visual-effects': {
             title: 'Visual Effects for Sermons/Events',
             images: [
-                'https://picsum.photos/seed/vfx1/800/600.jpg',
-                'https://picsum.photos/seed/vfx2/800/600.jpg',
-                'https://picsum.photos/seed/vfx3/800/600.jpg',
-                'https://picsum.photos/seed/vfx4/800/600.jpg',
-                'https://picsum.photos/seed/vfx5/800/600.jpg'
+               'images/motion/Visual-Effects.jpeg'
             ]
         },
 
         // Service 3 - Event Video Editing
         'church-edits': [
-            'https://picsum.photos/seed/churchedit1/800/600',
-            'https://picsum.photos/seed/churchedit2/800/600',
-            'https://picsum.photos/seed/churchedit3/800/600',
-            'https://picsum.photos/seed/churchedit4/800/600'
+            'images/motion/Church-Service.jpeg'
         ],
         'wedding-edits': [
-            'https://picsum.photos/seed/weddingedit1/800/600',
-            'https://picsum.photos/seed/weddingedit2/800/600',
-            'https://picsum.photos/seed/weddingedit3/800/600',
-            'https://picsum.photos/seed/weddingedit4/800/600'
+            'images/motion/Wedding.jpeg'
         ],
         'highlight-reels': [
-            'https://picsum.photos/seed/highlight1/800/600',
-            'https://picsum.photos/seed/highlight2/800/600',
-            'https://picsum.photos/seed/highlight3/800/600',
-            'https://picsum.photos/seed/highlight4/800/600'
+            'images/motion/Highlight.jpeg'
         ],
         'interviews': [
-            'https://picsum.photos/seed/interview1/800/600',
-            'https://picsum.photos/seed/interview2/800/600',
-            'https://picsum.photos/seed/interview3/800/600',
-            'https://picsum.photos/seed/interview4/800/600'
+            'images/motion/Interviews.jpeg'
         ],
         'external-audio': [
-            'https://picsum.photos/seed/audioedit1/800/600',
-            'https://picsum.photos/seed/audioedit2/800/600',
-            'https://picsum.photos/seed/audioedit3/800/600',
-            'https://picsum.photos/seed/audioedit4/800/600'
+            'images/motion/Sync.jpeg'
         ],
 
         // Service 4 - Live Streaming
         'obs-setup': [
-            'https://picsum.photos/seed/obssetup1/800/600',
-            'https://picsum.photos/seed/obssetup2/800/600',
-            'https://picsum.photos/seed/obssetup3/800/600',
-            'https://picsum.photos/seed/obssetup4/800/600'
+            'images/motion/OBSv-Mix.jpeg'
         ],
         'camera-angles': [
-            'https://picsum.photos/seed/cameraangle1/800/600',
-            'https://picsum.photos/seed/cameraangle2/800/600',
-            'https://picsum.photos/seed/cameraangle3/800/600',
-            'https://picsum.photos/seed/cameraangle4/800/600'
+            'images/motion/Camera-Angles.jpeg'
         ],
         'streaming-layouts': [
-            'https://picsum.photos/seed/layout1/800/600',
-            'https://picsum.photos/seed/layout2/800/600',
-            'https://picsum.photos/seed/layout3/800/600',
-            'https://picsum.photos/seed/layout4/800/600'
+           'images/motion/Streaming-Layout.jpeg'
         ],
         'worship-captures': [
-            'https://picsum.photos/seed/worship1/800/600',
-            'https://picsum.photos/seed/worship2/800/600',
-            'https://picsum.photos/seed/worship3/800/600',
-            'https://picsum.photos/seed/worship4/800/600'
+            'images/motion/Live-Worship.jpeg'
         ],
         'behind-scenes': [
-            'https://picsum.photos/seed/behind1/800/600',
-            'https://picsum.photos/seed/behind2/800/600',
-            'https://picsum.photos/seed/behind3/800/600',
-            'https://picsum.photos/seed/behind4/800/600'
+           'images/motion/Behind-the-Scenes.jpeg'
         ],
 
         // Service 5 - Social Media Video Creation
         'reels': [
-            'https://picsum.photos/seed/reel1/800/600',
-            'https://picsum.photos/seed/reel2/800/600',
-            'https://picsum.photos/seed/reel3/800/600',
-            'https://picsum.photos/seed/reel4/800/600'
+            'images/motion/Reels.jpeg'
         ],
         'testimonials': [
-            'https://picsum.photos/seed/testimonial1/800/600',
-            'https://picsum.photos/seed/testimonial2/800/600',
-            'https://picsum.photos/seed/testimonial3/800/600',
-            'https://picsum.photos/seed/testimonial4/800/600'
+            'images/motion/Testimonial-V.jpeg'
         ],
         'announcements': [
-            'https://picsum.photos/seed/announcement1/800/600',
-            'https://picsum.photos/seed/announcement2/800/600',
-            'https://picsum.photos/seed/announcement3/800/600',
-            'https://picsum.photos/seed/announcement4/800/600'
+            'images/motion/Church-Announcements.jpeg'
         ],
         'quotes': [
-            'https://picsum.photos/seed/quote1/800/600',
-            'https://picsum.photos/seed/quote2/800/600',
-            'https://picsum.photos/seed/quote3/800/600',
-            'https://picsum.photos/seed/quote4/800/600'
+            'images/motion/Quote-Motion.jpeg'
         ],
         'sermons': [
-            'https://picsum.photos/seed/sermon1/800/600',
-            'https://picsum.photos/seed/sermon2/800/600',
-            'https://picsum.photos/seed/sermon3/800/600',
-            'https://picsum.photos/seed/sermon4/800/600'
+           'images/motion/Mini-Sermons.jpeg'
         ],
 
         // Service 6 - Poster & Banner Design
         'event-posters': [
-            'https://picsum.photos/seed/eventposter1/800/600',
-            'https://picsum.photos/seed/eventposter2/800/600',
-            'https://picsum.photos/seed/eventposter3/800/600',
-            'https://picsum.photos/seed/eventposter4/800/600'
+            'images/motion/Event-Posters.jpeg'
         ],
         'social-banners': [
-            'https://picsum.photos/seed/socialbanner1/800/600',
-            'https://picsum.photos/seed/socialbanner2/800/600',
-            'https://picsum.photos/seed/socialbanner3/800/600',
-            'https://picsum.photos/seed/socialbanner4/800/600'
+            'images/motion/Social-Banners.jpeg'
         ],
         'church-campaigns': [
-            'https://picsum.photos/seed/churchcampaign1/800/600',
-            'https://picsum.photos/seed/churchcampaign2/800/600',
-            'https://picsum.photos/seed/churchcampaign3/800/600',
-            'https://picsum.photos/seed/churchcampaign4/800/600'
+            'images/motion/Church-Campaign.jpeg'
         ],
         'fundraisers': [
-            'https://picsum.photos/seed/fundraiser1/800/600',
-            'https://picsum.photos/seed/fundraiser2/800/600',
-            'https://picsum.photos/seed/fundraiser3/800/600',
-            'https://picsum.photos/seed/fundraiser4/800/600'
+            'images/motion/Fundraiser-Posters.jpeg'
         ],
         'billboards': [
-            'https://picsum.photos/seed/billboard1/800/600',
-            'https://picsum.photos/seed/billboard2/800/600',
-            'https://picsum.photos/seed/billboard3/800/600',
-            'https://picsum.photos/seed/billboard4/800/600'
+            'images/motion/Billboard-Pull.jpeg'
         ],
 
         // Service 7 - YouTube Channel Editing
         'intros-outros': [
-            'https://picsum.photos/seed/youtubeintro1/800/600.jpg',
-            'https://picsum.photos/seed/youtubeintro2/800/600.jpg',
-            'https://picsum.photos/seed/youtubeintro3/800/600.jpg',
-            'https://picsum.photos/seed/youtubeintro4/800/600.jpg'
+           'images/motion/Intros-Outros.jpeg'
         ],
         'episode-editing': [
-            'https://picsum.photos/seed/episodeedit1/800/600.jpg',
-            'https://picsum.photos/seed/episodeedit2/800/600.jpg',
-            'https://picsum.photos/seed/episodeedit3/800/600.jpg',
-            'https://picsum.photos/seed/episodeedit4/800/600.jpg'
+            'images/motion/Episode-Editing.jpeg'
         ],
         'thumbnails': [
-            'https://picsum.photos/seed/thumbnail1/800/600.jpg',
-            'https://picsum.photos/seed/thumbnail2/800/600.jpg',
-            'https://picsum.photos/seed/thumbnail3/800/600.jpg',
-            'https://picsum.photos/seed/thumbnail4/800/600.jpg'
+            'images/motion/Thumbnail-Designs.jpeg'
         ],
         'transitions': [
-            'https://picsum.photos/seed/transition1/800/600.jpg',
-            'https://picsum.photos/seed/transition2/800/600.jpg',
-            'https://picsum.photos/seed/transition3/800/600.jpg',
-            'https://picsum.photos/seed/transition4/800/600.jpg'
+           'images/motion/transitions.jpeg'
         ],
         'call-to-action': [
-            'https://picsum.photos/seed/cta1/800/600.jpg',
-            'https://picsum.photos/seed/cta2/800/600.jpg',
-            'https://picsum.photos/seed/cta3/800/600.jpg',
-            'https://picsum.photos/seed/cta4/800/600.jpg'
+            'images/motion/Call-to-Action.jpeg'
         ],
 
         // Service 8 - Photo Editing & Enhancement
         'portrait-retouching': [
-            'https://picsum.photos/seed/portrait1/800/600.jpg',
-            'https://picsum.photos/seed/portrait2/800/600.jpg',
-            'https://picsum.photos/seed/portrait3/800/600.jpg',
-            'https://picsum.photos/seed/portrait4/800/600.jpg'
+            'images/motion/Portrait-Retouching.jpeg'
         ],
         'background-removal': [
-            'https://picsum.photos/seed/background1/800/600.jpg',
-            'https://picsum.photos/seed/background2/800/600.jpg',
-            'https://picsum.photos/seed/background3/800/600.jpg',
-            'https://picsum.photos/seed/background4/800/600.jpg'
+            'images/motion/Background-Removal.jpeg'
         ],
         'event-enhancements': [
-            'https://picsum.photos/seed/eventphoto1/800/600.jpg',
-            'https://picsum.photos/seed/eventphoto2/800/600.jpg',
-            'https://picsum.photos/seed/eventphoto3/800/600.jpg',
-            'https://picsum.photos/seed/eventphoto4/800/600.jpg'
+           'images/motion/Event-Photography.jpeg'
         ],
         'color-grading': [
-            'https://picsum.photos/seed/color1/800/600.jpg',
-            'https://picsum.photos/seed/color2/800/600.jpg',
-            'https://picsum.photos/seed/color3/800/600.jpg',
-            'https://picsum.photos/seed/color4/800/600.jpg'
+           'images/motion/color-Grading.jpeg'
         ],
         'lighting-correction': [
-            'https://picsum.photos/seed/lighting1/800/600.jpg',
-            'https://picsum.photos/seed/lighting2/800/600.jpg',
-            'https://picsum.photos/seed/lighting3/800/600.jpg',
-            'https://picsum.photos/seed/lighting4/800/600.jpg'
+           'images/motion/Lighting-Tone.jpeg'
         ]
     };
 

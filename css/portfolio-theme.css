@@ -1,0 +1,138 @@
+/* Royal Theme for Portfolio Page */
+
+/* Applying royal gradient to the body of the portfolio page */
+body {
+    background: linear-gradient(135deg, 
+        rgba(75, 0, 130, 0.95) 0%, 
+        rgba(72, 61, 139, 0.9) 30%, 
+        rgba(206, 0, 225, 0.75) 70%, 
+        rgba(75, 0, 130, 0.95) 100%
+    );
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #F5F5DC; /* Cream text */
+}
+
+/* Headers with royal gold color */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+    color: #FFD700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Portfolio Item Styling */
+.portfolio-item {
+    border: 2px solid rgba(255, 215, 0, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    transition: all 0.4s ease;
+}
+
+.portfolio-item:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5),
+                0 0 30px rgba(255, 215, 0, 0.4);
+    border-color: rgba(255, 215, 0, 0.5);
+}
+
+.portfolio-overlay {
+    background: rgba(40, 0, 70, 0.85);
+}
+
+/* Testimonial Section Theming */
+.testimonial-section {
+    background: linear-gradient(135deg, 
+        rgba(75, 0, 130, 0.8) 0%, 
+        rgba(106, 90, 205, 0.6) 50%, 
+        rgba(75, 0, 130, 0.8) 100%
+    );
+    border: 2px solid rgba(255, 215, 0, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.testimonial-card {
+    background: linear-gradient(135deg, 
+        rgba(255, 215, 0, 0.15) 0%, 
+        rgba(218, 165, 32, 0.1) 100%
+    );
+    border: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.testimonial-author img {
+    border: 3px solid #FFD700;
+}
+
+.author-info h4 {
+    color: #FFD700;
+}
+
+.rating i {
+    color: #FFD700;
+}
+
+.testimonial-link {
+    background: rgba(255, 215, 0, 0.1);
+    color: #FFD700;
+    border: 2px solid rgba(255, 215, 0, 0.3);
+}
+
+.testimonial-link:hover {
+    background: rgba(255, 215, 0, 0.2);
+    border-color: #FFD700;
+}
+
+/* Footer Theming */
+.footer {
+    background: linear-gradient(135deg, rgba(50, 0, 90, 0.95) 0%, rgba(30, 0, 60, 0.9) 100%);
+    border-top: 2px solid rgba(255, 215, 0, 0.3);
+}
+
+.footer-brand h2, .footer-cta h3, .footer-column h4 {
+    color: #FFD700;
+}
+
+.footer-btn.quote-btn {
+    background: linear-gradient(135deg, #FFD700, #DAA520);
+    color: #4B0082;
+}
+
+.footer-btn.contact-btn {
+    color: #FFD700;
+    border: 2px solid #FFD700;
+}
+
+.footer-column ul li a:hover {
+    color: #FFD700;
+}
+
+.social-link:hover {
+    color: #FFD700;
+    background: rgba(255, 215, 0, 0.1);
+}
+
+.footer-divider {
+    background: linear-gradient(90deg, transparent, #FFD700, transparent);
+}
+
+.footer-bottom-links a:hover {
+    color: #FFD700;
+}
+
+/* Profile Section Theming */
+.profile-container {
+    background-color: transparent; /* Remove white background */
+}
+
+.purple-gold-gradient-section {
+    background: linear-gradient(135deg, 
+        rgba(75, 0, 130, 0.8) 0%, 
+        rgba(106, 90, 205, 0.6) 50%, 
+        rgba(75, 0, 130, 0.8) 100%
+    );
+    border: 2px solid rgba(255, 215, 0, 0.3);
+    color: #F5F5DC;
+}
+
+.profile-photo {
+    border: 6px solid #FFD700;
+}

@@ -333,12 +333,12 @@
         body {
             background-color: #f8f9fa;
             color: #333;
-            line-height: 1.6;
+            line-height: 1.;
         }
         
         .container {
-            width: 90%;
-            max-width: 1200px;
+            width: 70%;
+            max-width: 2000px;
             margin: 0 auto;
             padding: 0 15px;
         }

@@ -33,7 +33,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.8);
     color: white;
     display: flex;
     flex-direction: column;
@@ -85,7 +84,6 @@
 
 .testimonial-section {
     padding: 80px 20px;
-    background: linear-gradient(135deg, #4B0082 0%, #6A0DAD 100%);
     position: relative;
     overflow: hidden;
 }
@@ -110,14 +108,12 @@
 
 .testimonial-header h2 {
     font-size: 3rem;
-    color: #FFD700;
     margin-bottom: 15px;
     font-weight: 700;
 }
 
 .testimonial-header p {
     font-size: 1.2rem;
-    color: rgba(255, 255, 255, 0.9);
     max-width: 600px;
     margin: 0 auto;
 }
@@ -133,14 +129,12 @@
 }
 
 .testimonial-card {
-    background: rgba(75, 0, 110, 0.95);
     backdrop-filter: blur(10px);
     border-radius: 20px;
     padding: 40px 30px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
     position: relative;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid rgba(255, 215, 0, 0.2);
 }
 
 .testimonial-card:hover {
@@ -153,14 +147,12 @@
     position: absolute;
     top: -15px;
     left: 30px;
-    background: linear-gradient(135deg, #FFD700, #FFA500);
     width: 50px;
     height: 50px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #1a1a1a;
     font-size: 1.2rem;
     box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
 }
@@ -172,7 +164,6 @@
 .testimonial-content p {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: #ffffff;
     font-style: italic;
 }
 
@@ -187,20 +178,17 @@
     height: 60px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #FFD700;
     box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
 }
 
 .author-info h4 {
     margin: 0 0 5px 0;
-    color: #FFD700;
     font-size: 1.1rem;
     font-weight: 600;
 }
 
 .author-info p {
     margin: 0 0 8px 0;
-    color: #cccccc;
     font-size: 0.9rem;
 }
 
@@ -210,7 +198,6 @@
 }
 
 .rating i {
-    color: #FFD700;
     font-size: 0.9rem;
 }
 
@@ -225,21 +212,16 @@
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background: rgba(255, 215, 0, 0.1);
     backdrop-filter: blur(10px);
-    color: #FFD700;
     padding: 15px 30px;
     border-radius: 50px;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1rem;
-    border: 2px solid rgba(255, 215, 0, 0.3);
     transition: all 0.3s ease;
 }
 
 .testimonial-link:hover {
-    background: rgba(255, 215, 0, 0.2);
-    border-color: #FFD700;
     transform: translateY(-2px);
     box-shadow: 0 10px 25px rgba(255, 215, 0, 0.2);
 }
@@ -272,7 +254,6 @@
 
 
 .footer {
-    background: linear-gradient(135deg, #4B0082 0%, #6A0DAD 50%, #7B68EE 100%);
     color: white;
     position: relative;
     overflow: hidden;
@@ -306,14 +287,12 @@
 }
 
 .footer-brand h2 {
-    color: #FFD700;
     font-size: 2.5rem;
     margin-bottom: 15px;
     font-weight: 700;
 }
 
 .footer-brand p {
-    color: #cccccc;
     font-size: 1.1rem;
     line-height: 1.6;
     max-width: 400px;
@@ -324,7 +303,6 @@
 }
 
 .footer-cta h3 {
-    color: #FFD700;
     font-size: 1.8rem;
     margin-bottom: 25px;
     font-weight: 600;
@@ -367,8 +345,6 @@
 }
 
 .quote-btn {
-    background: linear-gradient(135deg, #FFD700, #FFA500);
-    color: #1a1a1a;
     border: 2px solid transparent;
 }
 
@@ -379,12 +355,9 @@
 
 .contact-btn {
     background: transparent;
-    color: #FFD700;
-    border: 2px solid #FFD700;
 }
 
 .contact-btn:hover {
-    background: rgba(255, 215, 0, 0.1);
     transform: translateY(-3px);
     box-shadow: 0 15px 30px rgba(255, 215, 0, 0.2);
 }
@@ -397,7 +370,6 @@
 }
 
 .footer-column h4 {
-    color: #FFD700;
     font-size: 1.3rem;
     margin-bottom: 20px;
     font-weight: 600;
@@ -413,7 +385,6 @@
 }
 
 .footer-column ul li a {
-    color: #cccccc;
     text-decoration: none;
     font-size: 1rem;
     transition: all 0.3s ease;
@@ -427,12 +398,10 @@
     left: 0;
     width: 0;
     height: 2px;
-    background: #FFD700;
     transition: width 0.3s ease;
 }
 
 .footer-column ul li a:hover {
-    color: #FFD700;
     padding-left: 10px;
 }
 
@@ -450,7 +419,6 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    color: #cccccc;
     text-decoration: none;
     font-size: 1rem;
     transition: all 0.3s ease;
@@ -459,8 +427,6 @@
 }
 
 .social-link:hover {
-    color: #FFD700;
-    background: rgba(255, 215, 0, 0.1);
     transform: translateX(5px);
 }
 
@@ -472,7 +438,6 @@
 
 .footer-divider {
     height: 1px;
-    background: linear-gradient(90deg, transparent, #FFD700, transparent);
     margin: 30px 0;
 }
 
@@ -485,7 +450,6 @@
 }
 
 .footer-bottom-content p {
-    color: #999999;
     margin: 0;
 }
 
@@ -495,14 +459,12 @@
 }
 
 .footer-bottom-links a {
-    color: #999999;
     text-decoration: none;
     font-size: 0.9rem;
     transition: color 0.3s ease;
 }
 
 .footer-bottom-links a:hover {
-    color: #FFD700;
 }
 
 /* Responsive Design */
@@ -547,94 +509,4 @@
     .footer-cta h3 {
         font-size: 1.5rem;
     }
-}
-
-<!-- Profile Section -->
-<section class="profile-container">
-    <img src="images/profile.jpg" alt="Profile Photo" class="profile-photo">
-    <div class="purple-gold-gradient-section">
-        <h2>&nbsp;About Me</h2>
-        <p>Welcome to Benique Creations — where imagination meets execution. I'm a creative professional specializing in graphic design, video editing, and live streaming solutions that captivate, connect, and communicate. From brand identity to cinematic edits and flawless live broadcasts, every project I take on is crafted with precision and purpose.</p>
-        <p>Whether you're a business seeking a standout visual identity, a church in need of reliable streaming, or a content creator aiming for polished, professional output — you'll find tailored visual solutions right here. Explore my work. Let's turn your vision into something unforgettable.</p>
-    </div>
-</section>
-
-<style>
-.profile-container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding: 3rem 0;
-    background-color: #f8f9fa;
-    overflow: hidden;
-}
-
-.profile-photo {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    border: 5px solid #9c27b0;
-    margin-right: 2rem;
-    transition: transform 0.3s ease;
-}
-
-.profile-photo:hover {
-    transform: scale(1.05);
-}
-
-.purple-gold-gradient-section {
-    flex: 1;
-    padding: 2rem;
-    background: linear-gradient(135deg, #9c27b0 0%, #ffd700 100%);
-    border-radius: 15px;
-    color: #fff;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-    position: relative;
-    overflow: hidden;
-}
-
-.purple-gold-gradient-section::before {
-    content: '';
-    position: absolute;
-    top: -50px;
-    right: -50px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    z-index: 0;
-}
-
-.purple-gold-gradient-section::after {
-    content: '';
-    position: absolute;
-    bottom: -70px;
-    left: -70px;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    z-index: 0;
-}
-
-.purple-gold-gradient-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    position: relative;
-    z-index: 1;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.purple-gold-gradient-section p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    margin-bottom: 1rem;
-    position: relative;
-    z-index: 1;
-}
-
-.purple-gold-gradient-section p:last-child {
-    font-weight: 500;
 }
